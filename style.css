@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 30vh; /* Limits the height to 30% of the viewport */
+    background-color: #f8f9fa;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures background covers the entire container */
+    box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #ffffff; /* Title color changed to white */
+    padding-top: 15%;
+}
+
+.item-count {
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.item-details {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+   
+    width: 100%;
+    padding-top: 3%;
+}
+
+/* Styling Cart and Contact Info */
+.cart, .contact-info {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);
+}
+
+.cart {
+    background-color: #D2D5DA; /* Light gray background for Cart */
+}
+
+.contact-info {
+    background-color: #FFFFFF; /* White background for Contact Info */
+}
+
+/* Additional Cart and Contact Info Styling */
+.cart .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cart .item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.item-details h2 {
+    font-size: 16px;
+    color: #333;
+}
+
+.item-details p {
+    font-size: 14px;
+    color: #666;
+}
+
+.coupon input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);
+}
+
+.coupon button {
+    padding: 8px 15px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);
+}
+
+.contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-info input,
+.contact-info select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);
+    background-color: #E5E7EB;
+}
+
+.location {
+    display: flex;
+    gap: 10px;
+}
+
+.continue {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);
+}
+.summary p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.price {
+    font-weight: bold;
+    color: #333;
+}
+.remove{
+    display:flex;
+
+}
